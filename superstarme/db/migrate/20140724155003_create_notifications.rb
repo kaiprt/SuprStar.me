@@ -1,4 +1,4 @@
-class Notifications < ActiveRecord::Migration
+class CreateNotifications < ActiveRecord::Migration
   def change
     create_table :notifications do |t|
       t.boolean        :was_notified,   :default => false
